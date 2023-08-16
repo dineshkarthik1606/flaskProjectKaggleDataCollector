@@ -4,7 +4,7 @@ from flask import Flask, request, jsonify
 app = Flask(__name__)   # Flask constructor
 
 os.environ['KAGGLE_USERNAME'] = 'dineshkarthik1606'
-os.environ['KAGGLE_KEY'] = 'f0ec4a3a112b788faeadda9071303aab'
+os.environ['KAGGLE_KEY'] = 'xxxxx'
 
 from kaggle.api.kaggle_api_extended import KaggleApi
 
